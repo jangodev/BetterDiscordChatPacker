@@ -3,12 +3,19 @@
 
 
 # How to run:
-  1. Open up a terminal
-  2. Run this:
-     `git clone https://github.com/jangodev/BetterDiscordChatPacker`
-     `cd BetterDiscordChatPacker`
-     `git pull`
-     `python main.py`
+  1. Open up a terminal (make sure you have python installed as well as httpx)
+  2. Run this:</br>
+     `git clone https://github.com/jangodev/BetterDiscordChatPacker`</br>
+
+     `cd BetterDiscordChatPacker`</br>
+
+     `git pull`</br>
+
+     `python main.py`</br>
+     
+     3. If you get any errors, check to make sure httpx is installed:</br>
+     
+        `pip install httpx`
 
 # How to change chat pack list
 - Go to to the `chatpack.txt` file in the folder and change the contents inside to whatever you want
